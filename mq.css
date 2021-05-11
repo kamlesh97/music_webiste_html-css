@@ -1,0 +1,162 @@
+/*---------for ipad size--------------*/
+
+
+@media screen and (max-width:1024px){
+
+	#body-header{
+		height: 10vh;
+	}
+
+	.last-item{
+	
+	margin-left: 240px;
+	
+	}
+
+	#search-bar{
+	width:75px;
+	margin-left: -20px;}
+
+	.search{
+	width: 20%;
+		}
+
+
+#front{
+
+	width: 80%;
+	margin-left: 40px;}
+
+#aside{
+	width: 350px;
+	margin-left:-20px;
+	margin-top: -10px;
+	margin-right: 40px;
+	}
+
+
+.block .search{
+
+	margin: 2px;
+	width: 100%;
+	height: 5vh;
+}
+
+.horizontal-list .big{
+	width: 95%;
+	height: 20vh;
+
+	margin-bottom: 10px;
+}
+
+.big img{
+	width: 200px;
+}
+
+.center #img-part{
+	margin-left: 0;
+}
+
+
+.big #txt-part{
+	font-size: 10px;
+	margin-left:10px;
+	line-height: 1rem;
+	display: inline-block;
+	/*margin: 20px 20px 20px 20px;*/
+
+
+}
+
+
+
+.center p{
+	margin-top: 10px;
+	/*align-items: center;*/
+}
+.center h4{
+	margin-left: 45px;
+}
+.center #txt1{
+	margin-left: -120px;
+}
+.center #main-heading{
+	margin-top: 15px;
+}
+
+
+.horizontal-list .small{
+	width: 95%; 
+	height: 10%;
+}
+
+#btn{width: 90px;}
+
+
+
+#aside #similar{
+	margin-left: -25px;
+	margin-top: 10px;
+}
+#aside #recently{
+	margin-left: -25px;
+}
+
+#music-side-icon{
+	margin-right: 2px;
+}
+
+#aside #similar #hd{
+	font-size: 12px;
+	margin-top:42px;
+}
+#aside #recently #hd{
+	font-size: 12px;
+	margin-top:-12px;
+}
+#aside #recently #txt{
+	margin-left: 100px;
+}
+
+#aside #similar #txt{
+	margin-left: 120px;
+}
+
+.mp2 #q{
+	margin-left: 170px;
+}
+
+
+	.mp2 .big{
+
+	height: 12vh;
+	
+}
+	.mp2 .big #img2{
+		margin-left:-60px;
+	}
+
+	.mp2 .big #img3{
+		margin-left: -54px;
+	}
+
+
+	.mp2 .small{
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+#footer{
+	margin-top:100px;
+	max-height: 150px;
+}
+
+
+}

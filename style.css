@@ -1,0 +1,903 @@
+/*-------------basic css for all----------------*/
+body{
+	margin: 0;
+	background-color: #00061a;/*#000d33*/;
+	color: white;
+	font-family: sans-serif;
+
+}
+/*-----------------------------------------------------*/
+
+
+
+
+
+/*------------  for header section-------------------------*/
+#body-header{
+	color: white;
+	height: 20vh;
+    background-attachment:fixed;
+   
+    background-size: contain;
+   
+}
+/*-----------------------------------------------------*/
+
+
+
+
+
+/*------------it contain search bar, bell icon, round picture---------------*/
+.last-item{
+	
+	margin-left: 450px;
+	align-items: center;
+}
+/*------------------------------------------------------------------------*/
+
+
+
+/*-----------basic list style apply for all page --------------------*/
+.horizontal-list{
+	list-style: none;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.horizontal-list li{
+	display: inline-flex;
+	margin: 0 20px ;
+
+}
+/*----------------------------------------------------------------*/
+
+
+
+
+
+/*-------------it is for main spotify icon------------*/
+
+.first-item .fa-spotify{
+	margin-bottom: 45px;
+}
+/*----------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------for ninja studio text ---------------*/
+.mus-text{
+	margin: 25px 0 0 10px;
+	color: white;
+}
+/*---------------------------------------------------------*/
+
+
+
+
+
+/*-------------------for round shape gradient color---*/
+#mus{
+	border:1px solid;
+	border-color: transparent;
+	border-radius: 50%;
+	border-right: blue;
+	border-left: purple;
+	background-image: linear-gradient(to right, blue, purple);
+	height: 80px;
+	width: 80px;
+	margin-left: -12px;
+}
+/*-----------------------------------------------------------*/
+
+
+
+
+
+/*------------------for spotify icon -------------------*/
+.fa-spotify{
+
+	font-size: 45px;
+	padding-top: 18px;
+	padding-left: 18px;
+}
+/*-------------------------------------------------------*/
+
+
+
+
+
+/*----------music icon next to spotify icon--------------*/
+.fa-music{
+	font-size: 30px;
+	margin: 50px 0px 0px -20px;
+}
+/*-----------------------------------------------------------*/
+
+
+
+
+/*-------------------for image in nav bar-----------------*/
+.horizontal-list img{
+	height:40px;
+	width: 40px; 
+}
+/*------------------------------------------------------*/
+
+
+
+
+/*------------------for list lenth in all page ---------------*/
+.search{
+	width: 25%;
+	display: flex;
+	flex-flow: wrap;
+	flex-direction: row;
+	border:2px solid #001233;
+	background-color: #001233;
+	border-radius: 5px;
+	padding:1px;
+	justify-content: space-between;
+	box-shadow: 0 0 20px 1px #001233;
+}
+/*----------------------------------------------------------*/
+
+
+
+
+/*-----------------for each icon in page --------------------*/
+i{
+	color: white;
+}
+/*-----------------------------------------------------------*/
+
+
+
+
+
+/*-----------------putting some text in searchbar ------------*/
+#search-bar{
+	width:255px;
+	background-color: #001233;  
+	border-color: transparent;
+	color: white;
+	margin-left: -10px;
+	
+}
+/*------------------------------------------------------------*/
+
+
+
+
+
+/*----------red dot on bell icon--------------*/
+#bor{
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	border-radius: 50%;  
+	background-color: red;
+	margin:4px 13px  0px;
+
+}
+/*-----------------------------------------------*/
+
+
+
+
+/*----------------for button ---------------*/
+button{
+
+	background-color:#001233;
+	border-color: transparent;
+}
+/*-----------------------------------------------*/
+
+
+
+/*------------------it is for button which has gradient color in {play all} button-------------*/
+#btn{
+	width: 140px;
+	border-left: purple;
+	border-right: blue;
+	color: white;
+	background-image:linear-gradient(to right, blue, purple);
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------section which contain singer details------------*/
+#front-side{
+	display: flex;
+	
+}
+
+
+#front{
+
+	width: 90%;
+	margin-left: 80px;
+}
+/*-----------------------------------------------------------------------*/
+
+
+
+
+/*--------------it is for aside section----------------*/
+#aside{
+	width: 350px;
+	margin-left:-350px;
+	margin-top: -10px;
+	margin-right: 20px;
+	}
+/*-------------------------------------------------------------*/
+
+
+
+
+/*---------------length of front section -------------------*/
+.block .search{
+
+	margin: 2px;
+	width: 70%;
+	height: 5vh; 
+	background-color: #1e1e2f;
+	border-radius: 0px;
+	border-color: #1e1e2f;
+
+}
+/*--------------------------------------------------------------*/
+
+
+
+
+
+/*----------------upper length of front section which contain singer details-------------*/
+.horizontal-list .big{
+
+	margin-top: -25px;
+	height: 45vh;
+	margin-bottom: 10px;
+	justify-content:flex-start;
+	border-color:#001233;
+	font-size: 10px;
+	background-color: #001233;
+}
+
+.horizontal-list .big .center{
+	display: flex;
+	border: 2px solid #001233;
+	background-color: #001233;
+	width: 100%;
+	height: 100%;
+
+}
+/*----------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------text part of front section which contain singer details---------------*/
+.big #txt-part{
+	margin: 20px 20px 20px 20px;
+	margin-top: 20px;
+	margin-left:40px;
+	text-transform: capitalize;
+	display: inline-block;
+	line-height: 1rem;
+	font-size: 13px;
+}
+/*----------------------------------------------*/
+
+
+
+
+/*-----------------image of singer----------------*/
+.big img{
+	margin-left: 4px;
+	height: 100%;
+	width: 110%;
+	
+}
+/*-------------------------------------------------*/
+
+
+
+/*-----------------text part of singer--------------*/
+.center p{
+	font-size: 10px;
+	margin-top: -5px;
+
+}
+
+
+.center h4{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
+.center #main-heading{
+	margin-left: -2px;
+	margin-right: 270px;
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+
+.center #img-part{
+	height:inherit;
+	width: 65%;
+	transform: scaleX(-1);
+	
+	margin-left: 20px;
+
+
+
+}
+
+#txt{
+	color: grey;
+}
+.center button{
+	padding: 5px;
+	background-color: white;
+
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*-------after singer details portion small list which contain album name --------------- */
+
+#same-line{
+	display: flex;
+}
+
+#side-image{
+	font-size: 12px;
+	margin:8px 10px 0 10px;
+
+}
+.small:hover{
+	background-color:#29293d;
+	border-color: #29293d ;
+	
+}
+
+.small img{
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+	
+}
+
+#down-txt{
+	font-size: 8px;
+	
+}
+/*--------------------------------------------------------------*/
+
+
+/*------------for adjusting heart and plus icon -----------------*/
+#music-side-icon{
+	margin-right:30px; 
+	margin-top: 7px;
+}
+
+#music-side-icon i{
+	font-size: 10px;
+	margin-left: 30px;
+	color: grey;
+}
+/*--------------------------------------------------------------*/
+
+
+/*-------------------for aside section length---------------*/
+#aside .search{
+	background-color: transparent;
+	border-color: transparent;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#aside #recently{
+	margin: 50px 0 150px 0;
+
+}
+
+#aside #txt{
+	margin-left:140px; 
+	font-size:8px; 
+}
+#recently #txt{
+	margin-left:110px; }
+
+
+
+#similar .small img{
+	height: 60px;
+	width: 60px;
+	border-radius: 0;	
+	
+}
+
+
+#similar #music-side-icon{
+	margin-top: -10px;
+}
+
+#similar #down-txt{
+	margin-left:28px;
+}
+/*--------------------------------------------------------------*/
+
+
+
+
+
+/*---------------------no underline for link---------------*/
+a{
+	text-decoration: none;
+	color: white;
+}
+/*----------------------------------------------------------*/
+
+/*---------------link color before click*/
+a:active {
+  color: white;
+}
+/*--------------------------------------------*/
+
+
+/*----------------- link color after click---------------*/
+a:visited {
+  color: white;
+}
+/*------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*++++++++++++++++++++++++++++++mp2,mp1 css++++++++++++++++++++++++++++++++++++++-*/
+
+
+/*-----------------for mp2 page front section height (image carousol)-------------*/
+.mp2 .big{
+
+	height: 32vh;
+	
+}
+/*------------------------------------------------------------------------------*/
+
+
+
+/*-----------images of image carousol-------------*/
+.mp2 .big #img1{
+	width: 40%;
+	margin-left: 0;
+	
+
+}
+
+.mp2 .big #img3{
+	width: 40%;
+	margin-left:-107px;
+	
+}
+
+
+
+.mp2 .big #img2{
+	width: 40%;
+	height: 110%;
+	margin-top: -10px;
+	margin-left:-60px;
+	position: relative;
+	
+}
+/*--------------------------------------------------------------------*/
+
+
+
+/*-----------------effect after hover on image carousol ------------------*/
+.mp2 .big #img3:hover{
+	position: relative;
+	box-shadow: 0 0 30px 5px red;
+}
+
+.mp2 .big #img1:hover{
+	/*position: sticky;*/
+	box-shadow: 0 0 30px 5px yellow;
+	z-index: 1;
+}
+
+
+.mp2 .big img:hover{
+	width: 40%;
+	height: 110%;
+	margin-top:-10px; 
+}
+
+.mp2 .big #img2:hover{
+	height: 120%;
+	margin-top: -20px;
+	position: relative;
+	box-shadow: 0 0 30px 5px green;
+}
+/*--------------------------------------------------------------------------*/
+
+
+
+/*---------------------for latest release section-------------------*/
+#latest-release{
+	margin-top: 50px;
+}
+.mp2 .small{
+	width: 35%;
+	border-color: transparent;
+	background-color: transparent;
+	height: 40%;
+}
+
+.mp2 .small img{
+	height: 50px;
+	width: 50px;
+	border-radius: 0;
+}
+
+
+.next-to-slide{
+	
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	margin-right:200px; 
+}
+
+
+.next-to-slide #down-txt{
+	margin-left: 25px;
+}
+/*------------------------------------------------------------------*/
+
+
+/*---------------------for popular artist section-------------------*/
+.mp2-popular img{
+	box-shadow: 0 0 10px .5px grey;
+}
+
+.mp2-popular #side-image{
+	margin-top: 105px;
+	margin-left: -80px;
+}
+
+.mp2-popular img{
+	margin: 0 2px;
+}
+#popular img{
+	height: 100px; 
+	width: 100px;
+	border-radius: 50%;
+	
+	/*padding: -5px;*/
+}
+
+#popular{
+	margin-left: 0px;
+	padding: 10px;
+}
+/*---------------------------------------------------*/
+
+
+
+/*----------------for latest hindi latest english image------------- --*/
+#english img{
+	height: 100px; 
+	width: 100px;
+	
+}
+/*------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------- after popular artist ->station (love retro chill   portion)---*/
+.mp2-after-round .big{
+	height: 15vh;
+	margin-top: -15px;
+	
+}
+
+.mp2-after-round .big #popular img{
+	height: 70px;
+	width: 70px;
+	margin: 1px;
+	padding: 1px;
+	box-shadow: 0 0 10px .5px grey;
+}
+
+.mp2-after-round #side-image{
+	margin-top: 35px;
+	margin-left: -60px;
+
+}
+
+
+#option{
+    border: none;
+    box-shadow: none;
+    border: solid;
+    display: none;
+    flex-direction: column;
+    width: 10vw;
+    position: relative;
+    float:right;
+    padding: 0;
+    transition: all 1s;
+  }
+
+#option button{
+	background-color: transparent;
+}
+#q:hover ~ #option{
+    display: flex;
+    transition: all 1s;
+  	background-color: white;
+  	list-style: none;
+
+}
+/*-------------------------------------------------------------*/
+
+
+/*-------------------------------Party-Electronic road trip image portion------------------------*/
+.mp2-after-cir-round .big{
+	display:inline-block;
+	height: 15vh;
+	justify-content: space-between;
+	/*margin-top: 20px;*/
+	background-color: transparent;
+	border-color: transparent;
+}
+
+
+.mp2-after-cir-round img{
+	width: 32%;
+	height: 100%;
+	padding-left: 4.5px;
+	box-shadow: 0 0 10px .5px grey;
+}
+
+
+
+.mp2-after-cir-round .big .container {
+  position: relative;
+  text-align: center;
+  color: pur;
+}
+
+.centered {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  border:solid;
+  border-radius: 50%;
+  border-color: transparent;
+  box-shadow: 0 0 40px 5px purple;
+  transform: translate(-50%, -50%);
+}
+
+.mp2-after-cir-round .big .container:hover{
+	font-weight: 900;
+	
+}
+/*-----------------------------------------------------------------------*/
+
+
+
+
+/*------------------for latest english and hindi portion--------------*/
+.mp2-english img{
+	padding-left: 10px;
+
+}
+
+
+.mp2-english #side-image{
+	margin-top: 105px;
+	margin-left: -100px;
+}
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------after clicking music link for opening music player*/
+#footer:target{
+	margin-bottom: 0;
+	
+	
+	width: 100%;
+	top: 82vh;
+	position: fixed;
+	display: inline-block;
+} 
+/*-----------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------single music player---------------------------*/
+#footer{
+    position: fixed;
+ 
+    width: 100vw;
+    height: 20vh;
+    top: 40%;
+    margin: 0 auto;
+    
+    background-image: linear-gradient(to right, blue, purple);
+    display: none;
+    
+}
+/* progress bar at footer section */
+#progressbar{
+    margin-top:-10px;
+
+}
+
+#progressbar input{
+    width: 100%;
+    height: 5px;
+    box-shadow: 0 0 10px 1px purple;
+}
+
+ /* whole player style in footer section */
+
+#player{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+/* currently playing song image and name style w */
+#playingSong{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 0 10px;
+    width: 33%;
+    font-size: 1.5rem;
+}
+
+#playingSong div img{
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0 0 5px 1px;
+}
+
+/* player buttons css style */
+#buttons{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: 0 2%;
+} 
+
+#buttons div{
+    text-align: center;
+    width: 15%;
+    align-items: center;
+       }        
+/*  player buttons images style */
+
+#buttons img{
+  display: inline-block;
+  height: 33px;
+  border-radius: 50%;
+}
+
+#buttons img:hover{
+box-shadow: 0 0 10px 2px;
+}
+
+/* play button */
+#play{
+	margin-top: -15px;
+   outline: none;
+   border-radius: 50%;
+   background-image: url(images/playbutton.png);
+   height: 33px;
+   background-size: cover;
+   width: 33px;
+   background-color: transparent;
+   border: none;
+   box-shadow: 0 0 5px 1px white;
+}
+
+#play:hover{
+    box-shadow: 0 0 10px 1px white;
+}
+
+/* TIMER SECTION */
+
+#timer{
+  
+    height: 100%;
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}      
+
+#timer img{
+    height: 30px;
+}    
+
+     /* volume button */
+#speaker{
+	width: 15%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+}
+
+#footer:target{
+    display: block;
+   
+}
+
+
+/* ------------------------------ */
+
+ /* playlist styling as it opens while we click on artist */
+ #playlist
+ {
+     margin-top: 1%;
+   display: none;
+   flex-direction: row;
+   width: 80%;
+   height: 40vh;
+   background-color: rgba(0, 0, 0, 0.418);
+   box-shadow: 0 0 10px 4px white;
+
+ }
+ /*  artist pic on their play list  */
+ #playlist #artistPhoto{
+   width: 100vw;
+
+ }
+
+ 
+ /* while target the  playing we set display property to flex..to make it visible */
+ #playlist:target ~section{
+   transform: scale(0);
+   display: none;
+   transform: none;
+   
+  
+/*------------------------------------------
