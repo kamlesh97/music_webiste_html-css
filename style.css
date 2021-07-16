@@ -139,8 +139,13 @@ body{
 	border-radius: 5px;
 	padding:1px;
 	justify-content: space-between;
-	box-shadow: 0 0 20px 1px #001233;
+	box-shadow: 0 0 1px 1px #001233;
+	
 }
+/*----------------------------------------------------------*/
+
+.search:hover{box-shadow: 0 0 20px 5px #001233;}
+
 /*----------------------------------------------------------*/
 
 
